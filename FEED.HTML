@@ -23,25 +23,24 @@ function mo()
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><br>
-<table>
-<form method="get" action="index.html">
-  <p>  
-  <p>Name 
-    <input type="text" name="name" size="28">
-    <br>
-    <br>
-place 
-<input type="text" name="place" size="28">
-<br>
-<br>
-Email id 
-<input type="text" name="mail" size="25" >
-<br>
-<br>
-
-  <p>FEEDBACK</p>
-       <textarea name="textarea" cols="50" rows="10" plaseholder="feedback"></textarea><BR>
-      <button name="Submit" onClick="mo()" value="Submit">Submit</button>
+<table align="centre">
+<form method="post" action="send_mail.php">
+<p>
+<label>Name
+<input type="text" name="first_name" required>
+</label> 
+</p>
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+<p>
+<label>Comments
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+<p><button>Submit</button></p>
 </form> 
 </table>	  
 	    
