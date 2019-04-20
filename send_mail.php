@@ -9,7 +9,7 @@ $webmaster_email = "ayushamlesh@gmail.com";
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
 */
-$feedback_page = "FEED.html";
+$feedback_page = "FEED.HTML";
 $error_page = "error_message.html";
 $thankyou_page = "thank_you.html";
 
@@ -19,11 +19,11 @@ If you add a form field, you will need to add it here.
 */
 $email_address = $_REQUEST['email_address'] ;
 $comments = $_REQUEST['comments'] ;
-$first_name = $_REQUEST['Name'] ;
+$first_name = $_REQUEST['first_name'] ;
 $msg = 
 "Name: " . $first_name . "\r\n" . 
 "Email: " . $email_address . "\r\n" . 
-"Comments: " . $comments ;
+"Comments/request: " . $comments ;
 
 /*
 The following function checks for email injection.
