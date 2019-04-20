@@ -23,7 +23,7 @@ $first_name = $_REQUEST['first_name'] ;
 $msg = 
 "Name: " . $first_name . "\r\n" . 
 "Email: " . $email_address . "\r\n" . 
-"Comments/request: " . $comments ;
+"Suggestions/Request: " . $Suggestions/Request ;
 
 /*
 The following function checks for email injection.
